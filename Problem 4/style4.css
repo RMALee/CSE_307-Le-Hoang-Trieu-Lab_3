@@ -1,0 +1,45 @@
+html {
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+table {
+    background-color: rgb(89,89,89);
+}
+
+td {
+    vertical-align: top;
+}
+
+.yellow-style {
+    color: rgb(192,200,141);
+}
+
+.grey-style {
+    opacity: 50%;
+}
+
+.table-label {
+    font-style: italic;
+}
+
+#ticket-id {
+    opacity: 50%;
+    font-size: 30px;               
+}
+
+#no-active {
+    color:rgb(174,43,44);;
+}
+
+#not-answered {
+    color: rgba(193,98,70);
+}
+
+#style-round {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(113, 180, 122);
+    color: green;
+}

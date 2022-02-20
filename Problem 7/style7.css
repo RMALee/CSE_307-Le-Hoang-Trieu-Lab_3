@@ -1,0 +1,109 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+article:first-of-type {
+    padding-top: 2px;
+    display: block;
+    position: fixed;
+    left: 150px;
+    border: 1px outset;
+    height: 315px;
+    width: 500px;
+    float: left;
+}
+
+article:last-of-type {
+    padding-top: 2px;
+    position: fixed;
+    left: 700px;
+    display: block;
+    border: 1px outset;
+    height: 150px;
+    width: 490px;
+}
+
+article {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 15px;
+    padding-left: 20px;
+    /* border-left: 5px solid red; */
+    color: rgb(51, 142, 176);
+}
+
+h1:before {
+    width: 8px;
+    left: 20px;
+    background: red;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: inherit;
+}
+
+time, .second-article > div > span:last-child {
+    opacity: 50%;
+    font-size: 12px;
+}
+
+hr {
+    border-top: 1px dotted;
+    opacity: 20%;
+}
+
+.headings {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.first-article > span {
+    font-size: 12px;
+    opacity: 70%;
+}
+
+.first-article > ul > li {
+    padding-top: 20px;
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+.first-article > ul {
+    position: fixed;
+    top: 160px;
+    left: 142px;
+}
+
+.first-article h1:before {
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 5px;
+    transform: skew(-20deg);
+}
+
+.second-article img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.second-article #name {
+    color: rgb(95, 209, 240);
+    font-weight: bold;
+}
+
+#name > a:hover {
+    text-decoration: underline;
+}
